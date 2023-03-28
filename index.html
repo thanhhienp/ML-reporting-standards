@@ -61,60 +61,64 @@
 
   <div class="jumbotron text-center" style="margin-bottom:0">
     <div class="container">
-      <h1 style="font-size: 230%">Reporting Standards for ML-based Science</h1>
-    </div>
-    <div class="container m-3">
-      <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10">
-          <p>
+      <div class="container m-2">
+        <h1 style="font-size: 230%">Reporting Standards for ML-based Science</h1>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <p class="text-left">
             In various fields of science, machine learning (ML) methods are often applied and fail in similar ways.
           </p>
-          <p>
-            We aim to provide clear reporting standards for ML-based science, <br>
-            focusing on scientific research and making our standard applicable across disciplines.
+          <p class="text-left">
+            We aim to provide clear reporting standards for ML-based science, focusing on scientific research
+            and making our standard applicable across disciplines.
           </p>
         </div>
-        <div class="col-sm-1"></div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-3">
-          <div class="container mt-2">
-            <div class="col-lg-12">
-              <!-- TODO: Not correctly linked -->
-              <a class="btn btn-amber ml-n1" role="button" href="" style="width: 210px">Draft Paper
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="container mt-2">
-            <div class="col-lg-12">
-              <!-- TODO: Not correctly linked -->
-              <a class="btn btn-amber ml-n1" role="button"
-                href="https://docs.google.com/document/d/1KStvJKTYg1aVet5VG6et1rHoQUszGeaN/edit"
-                style="width: 210px">Checklist
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="container mt-2">
-            <div class="col-lg-12">
-              <!-- TODO: Not correctly linked -->
-              <a class="btn btn-amber ml-n1" role="button"
-                href="https://docs.google.com/document/d/1uLAqc5x6RrzpywMOmNJaKmJJ2twmtWmK/edit"
-                style="width: 210px">Guidelines
-              </a>
-            </div>
-          </div>
-        </div>
 
+      <div class="row mt-2">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="container mt-2">
+                  <a class="btn btn-amber" role="button" href="" style="width: 180px">Draft Paper
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="container mt-2">
+                  <a class="btn btn-amber" role="button"
+                    href="https://docs.google.com/document/d/1KStvJKTYg1aVet5VG6et1rHoQUszGeaN/edit"
+                    style="width: 180px">Checklist
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="container mt-2">
+                  <a class="btn btn-amber" role="button"
+                    href="https://docs.google.com/document/d/14WohILSDZp7qIWtM8kqU29VaG_y4uAX0/edit"
+                    style="width: 180px">Sample Checklist
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="container mt-2">
+                  <a class="btn btn-amber" role="button"
+                    href="https://docs.google.com/document/d/1uLAqc5x6RrzpywMOmNJaKmJJ2twmtWmK/edit"
+                    style="width: 180px">Guidelines
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 
   <nav id="nav-main" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mt-n4">
@@ -161,8 +165,10 @@
         <p>
           ML methods are being widely adopted for scientific research.
 
-          Compared to older statistical methods, they offer increased predictive accuracy, the ability to process large
-          amounts of data, and the ability to use different types of data for scientific research, such as text, images,
+          Compared to older statistical methods, they offer increased predictive accuracy, the ability to process
+          large
+          amounts of data, and the ability to use different types of data for scientific research, such as text,
+          images,
           and video.
         </p>
         <!-- cite validity and generalizability -->
@@ -201,7 +207,8 @@
           <a href="https://www.sciencedirect.com/science/article/pii/S0895435615001717">spot issues early</a>.
         </p>
         <p>
-          Despite the use of ML methods across disciplines, there are no widely applicable best practices for reporting
+          Despite the use of ML methods across disciplines, there are no widely applicable best practices for
+          reporting
           the design, implementation, and evaluation of ML-based science.
 
           This leads to different, and often no fixed reporting standards in each field adopting ML methods.
@@ -218,8 +225,9 @@
           for reporting ML-based science.
         </p>
 
-        <h5>Why a Checklist?</h5>
-        <div class="card-body">
+        <h5 class="mt-2">Why a Checklist?</h5>
+
+        <div class="mb-2">
           <p>
             Checklists have been adopted in many scientific fields, and they have been impactful in improving
             reporting practices.
@@ -240,28 +248,27 @@
             Several checklists have been proposed in ML methods research.
           </p>
         </div>
-        <h5>What's New?</h5>
 
-        <div class="card-body">
-          <p>
-            Our reporting standards differ from this large body of past work in two crucial ways.
-          </p>
-          <p>
-            First, we aimed to make our reporting standards field-agnostic, so that they can be used by
-            researchers across fields.
+        <h5 class="mt-2">What's New?</h5>
 
-            We selected items that broadly apply to fields that use ML methods.
-          </p>
-          <p>
-            Second, past checklists for ML methods research focus on reproducibility issues that arise commonly
-            when developing ML methods.
+        <p>
+          Our reporting standards differ from this large body of past work in two crucial ways.
+        </p>
+        <p>
+          First, we aimed to make our reporting standards field-agnostic, so that they can be used by
+          researchers across fields.
 
-            But these issues differ from the ones that arise in scientific research.
-          </p>
-          <p>
-            Still, past work in both scientific research and ML methods research has helped inform our checklist.
-          </p>
-        </div>
+          We selected items that broadly apply to fields that use ML methods.
+        </p>
+        <p>
+          Second, past checklists for ML methods research focus on reproducibility issues that arise commonly
+          when developing ML methods.
+
+          But these issues differ from the ones that arise in scientific research.
+        </p>
+        <p>
+          Still, past work in both scientific research and ML methods research has helped inform our checklist.
+        </p>
       </div>
     </div>
 
@@ -269,7 +276,6 @@
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-10" style="position: relative;">
-
         <h4 class="navitems" id="process">Developing the reporting standards - a collaborative effort</h4>
         <p>
           This set of reporting standards resulted from an interdisciplinary collaboration.
@@ -294,7 +300,8 @@
           conference.
         </p>
         <p>
-          2. Collins et al. provide the <a href="https://doi.org/10.1186/s12916-014-0241-z"><i>TRIPOD</i></a> checklist
+          2. Collins et al. provide the <a href="https://doi.org/10.1186/s12916-014-0241-z"><i>TRIPOD</i></a>
+          checklist
           for prediction models in health research.
         </p>
         <p>
@@ -318,7 +325,8 @@
           Then, the authors collaboratively edited the checklist to choose commonly applicable items across
           disciplines.
 
-          We paid close attention to <i>usability:</i> to decrease the time and cognitive load that using the checklist
+          We paid close attention to <i>usability:</i> to decrease the time and cognitive load that using the
+          checklist
           would entail, we removed items that were too specific and would apply to a small subset of ML-based science.
         </p>
         <p>
@@ -349,710 +357,712 @@
         </p>
 
         <div class="container" style="margin-top:30px; position: relative;">
-          <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10">
-              <div class="accordion" id="accordion">
-                <div class="card mt-3">
-                  <div class="card-header" id="sectionOne">
-                    <h5 class="mb-2 mt-2">
-                      <div>
-                        <span class="section-title">
-                          Study design
-                        </span>
-                        <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                          data-target="#collapseOne" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                      </div>
-                    </h5>
-                  </div>
-
-                  <div id="collapseOne" class="collapse" aria-labelledby="sectionOne" data-parent="#accordion">
-                    <div class="card-body">
-                      <p>
-                        ML-based science has many researcher degrees of freedom.
-
-                        Each design decision can significantly impact the conclusions drawn from a study.
-                      </p>
-                      <p>
-                        This section focuses on clearly and precisely stating the decisions taken during a study's
-                        design.
-
-                        This is motivated by recent research which shows that reporting these decisions in adequate
-                        depth and clarity is not trivial or common.
-                      </p>
-                      <p>
-                        For instance, <a href="https://doi.org/10.1177/00031224211004187">Lundberg et al.</a>
-                        find that none of the quantitative papers published in a top sociology journal in 2018 report
-                        their estimands in sufficient detail.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card mt-1">
-                <div class="card-header" id="sectionTwo">
-                  <h5 class="mb-1 mt-1">
+          <div class="accordion" id="accordion">
+            <div class="card mt-3">
+              <div class="card-header" id="sectionOne">
+                <h5 class="mb-2 mt-2">
+                  <div>
                     <span class="section-title">
-                      Computational reproducibility
+                      Study design
                     </span>
                     <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                      data-target="#collapseTwo" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                  </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="sectionTwo" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>
-                      This refers to the ability of an independent researcher to get the same results that are reported
-                      in a paper or manuscript.
-                    </p>
-                    <p>
-                      Computational reproducibility allows errors to be uncovered quickly.
-
-                      Independent researchers can verify and build on a study's results.
-
-                      Despite being a core tenet of computational research, it is hard to achieve computational
-                      reproducibility in practice.
-                    </p>
+                      data-target="#collapseOne" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
                   </div>
-                </div>
+                </h5>
               </div>
-              <div class="card mt-1">
-                <div class="card-header" id="sectionThree">
-                  <h5 class="mb-1 mt-1">
-                    <span class="section-title">
-                      Data quality
-                    </span>
-                    <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                      data-target="#collapseThree" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                  </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="sectionThree" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>
-                      This section helps readers and referees understand and evaluate the quality of the data used in
-                      the
-                      study.
-                    </p>
-                    <p>
-                      Using poor quality data or data that is not suitable for answering a research question can lead to
-                      results that are meaningless or misleading.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card mt-1">
-                <div class="card-header" id="sectionFour">
-                  <h5 class="mb-1 mt-1">
-                    <span class="section-title">
-                      Data preprocessing
-                    </span>
-                    <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                      data-target="#collapseFour" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                  </h5>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="sectionFour" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>
-                      Different preprocessing steps can lead to vastly different outcomes from the modeling process.
 
-                      Even small changes, such as changing the order in which the data preparation steps take place, can
-                      lead to large differences in outcomes.
-                    </p>
-                    <p>
-                      For example, <a
-                        href="https://www.sciencedirect.com/science/article/pii/S0933365720312525">Vandewiele et al.</a>
-                      find that oversampling before splitting the data into training and evaluation sets lead to
-                      widespread errors in pre-term birth detection.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card mt-1">
-                <div class="card-header" id="sectionFive">
-                  <h5 class="mb-1 mt-1">
-                    <span class="section-title">
-                      Modeling
-                    </span>
-                    <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                      data-target="#collapseFive" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                  </h5>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="sectionFive" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>
-                      There are many steps involved in developing an ML model.
+              <div id="collapseOne" class="collapse" aria-labelledby="sectionOne" data-parent="#accordion">
+                <div class="card-body">
+                  <p>
+                    ML-based science has many researcher degrees of freedom.
 
-                      This makes it hard to report exact details about the model, and can hinder replication by
-                      independent researchers.
-                    </p>
-                    <p>
-                      For example, <a
-                        href="https://proceedings.neurips.cc/paper/2019/hash/c429429bf1f2af051f2021dc92a8ebea-Abstract.html">Raff</a>
-                      found that ML results can often not be replicated using the paper's text (i.e., without using the
-                      code accompanying a paper).
-                    </p>
-                    <p>
-                      We ask authors to specify the main steps in the modeling process, including feature selection, the
-                      types of models considered, and evaluation.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card mt-1">
-                <div class="card-header" id="sectionSix">
-                  <h5 class="mb-1 mt-1">
-                    <span class="section-title">
-                      Data leakage
-                    </span>
-                    <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                      data-target="#collapseSix" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                  </h5>
-                </div>
-                <div id="collapseSix" class="collapse" aria-labelledby="sectionSix" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>
-                      Leakage is a spurious relationship between the independent variables and the target variable that
-                      arises as an artifact of the data collection, sampling, preprocessing, or modeling steps.
-                    </p>
-                    <p>
-                      For example, normalizing features in the training and test data together leads to leakage since
-                      information about the test data features is included in the training data.
-                    </p>
-                    <p>
-                      Leakage is a major source of reproducibility failures: it affects dozens of fields and hundreds of
-                      published papers and can lead to vastly overoptimistic results.
+                    Each design decision can significantly impact the conclusions drawn from a study.
+                  </p>
+                  <p>
+                    This section focuses on clearly and precisely stating the decisions taken during a study's
+                    design.
 
-                      We ask authors to justify that their study does not suffer from the main sources of leakage.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card mt-1">
-                <div class="card-header" id="sectionSeven">
-                  <h5 class="mb-1 mt-1">
-                    <span class="section-title">
-                      Metrics and uncertainty quantification
-                    </span>
-                    <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                      data-target="#collapseSeven" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                  </h5>
-                </div>
-                <div id="collapseSeven" class="collapse" aria-labelledby="sectionSeven" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>
-                      The performance of ML models is key to the scientific claims of interest.
-                    </p>
-                    <p>
-                      Since there are many possible choices authors can make when choosing metrics, it is important to
-                      reason why the metrics used are appropriate for the task at hand.
-
-                      Communicating and reasoning about uncertainty is critical.
-                    </p>
-                    <p>
-
-                      Still, <a href="http://arxiv.org/abs/2206.12179">Simmonds et al.</a> find that studies often do
-                      not report the various kinds of uncertainty in the modeling process.
-
-                      We ask authors to report the metrics and uncertainty estimates used in enough detail to enable a
-                      judgment about whether they made valid choices for evaluating the performance of the model and
-                      drawing scientific inferences.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card mt-1">
-                <div class="card-header" id="sectionEight">
-                  <h5 class="mb-1 mt-1">
-                    <span class="section-title">
-                      Generalizability
-                    </span>
-                    <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
-                      data-target="#collapseEight" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
-                  </h5>
-                </div>
-                <div id="collapseEight" class="collapse" aria-labelledby="sectionEight" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>
-                      ML-based science faces a number of threats to external validity.
-
-                      Since studies that use ML methods are often unaccompanied by external (i.e., true out-of-sample)
-                      validation, it is important to reason about these threats.
-                    </p>
-                    <p>
-                      Additionally, authors are best positioned to identify the boundaries of applicability of their
-                      claims in order to prevent misunderstandings about the claims made in their study.
-                    </p>
-                  </div>
+                    This is motivated by recent research which shows that reporting these decisions in adequate
+                    depth and clarity is not trivial or common.
+                  </p>
+                  <p>
+                    For instance, <a href="https://doi.org/10.1177/00031224211004187">Lundberg et al.</a>
+                    find that none of the quantitative papers published in a top sociology journal in 2018 report
+                    their estimands in sufficient detail.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="card mt-1">
+            <div class="card-header" id="sectionTwo">
+              <h5 class="mb-1 mt-1">
+                <span class="section-title">
+                  Computational reproducibility
+                </span>
+                <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="sectionTwo" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  This refers to the ability of an independent researcher to get the same results that are reported
+                  in a paper or manuscript.
+                </p>
+                <p>
+                  Computational reproducibility allows errors to be uncovered quickly.
+
+                  Independent researchers can verify and build on a study's results.
+
+                  Despite being a core tenet of computational research, it is hard to achieve computational
+                  reproducibility in practice.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-1">
+            <div class="card-header" id="sectionThree">
+              <h5 class="mb-1 mt-1">
+                <span class="section-title">
+                  Data quality
+                </span>
+                <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="sectionThree" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  This section helps readers and referees understand and evaluate the quality of the data used in
+                  the
+                  study.
+                </p>
+                <p>
+                  Using poor quality data or data that is not suitable for answering a research question can lead to
+                  results that are meaningless or misleading.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-1">
+            <div class="card-header" id="sectionFour">
+              <h5 class="mb-1 mt-1">
+                <span class="section-title">
+                  Data preprocessing
+                </span>
+                <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
+                  data-target="#collapseFour" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="sectionFour" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  Different preprocessing steps can lead to vastly different outcomes from the modeling process.
+
+                  Even small changes, such as changing the order in which the data preparation steps take place, can
+                  lead to large differences in outcomes.
+                </p>
+                <p>
+                  For example, <a href="https://www.sciencedirect.com/science/article/pii/S0933365720312525">Vandewiele
+                    et al.</a>
+                  find that oversampling before splitting the data into training and evaluation sets lead to
+                  widespread errors in pre-term birth detection.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-1">
+            <div class="card-header" id="sectionFive">
+              <h5 class="mb-1 mt-1">
+                <span class="section-title">
+                  Modeling
+                </span>
+                <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
+                  data-target="#collapseFive" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="sectionFive" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  There are many steps involved in developing an ML model.
+
+                  This makes it hard to report exact details about the model, and can hinder replication by
+                  independent researchers.
+                </p>
+                <p>
+                  For example, <a
+                    href="https://proceedings.neurips.cc/paper/2019/hash/c429429bf1f2af051f2021dc92a8ebea-Abstract.html">Raff</a>
+                  found that ML results can often not be replicated using the paper's text (i.e., without using the
+                  code accompanying a paper).
+                </p>
+                <p>
+                  We ask authors to specify the main steps in the modeling process, including feature selection, the
+                  types of models considered, and evaluation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-1">
+            <div class="card-header" id="sectionSix">
+              <h5 class="mb-1 mt-1">
+                <span class="section-title">
+                  Data leakage
+                </span>
+                <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
+                  data-target="#collapseSix" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
+              </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="sectionSix" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  Leakage is a spurious relationship between the independent variables and the target variable that
+                  arises as an artifact of the data collection, sampling, preprocessing, or modeling steps.
+                </p>
+                <p>
+                  For example, normalizing features in the training and test data together leads to leakage since
+                  information about the test data features is included in the training data.
+                </p>
+                <p>
+                  Leakage is a major source of reproducibility failures: it affects dozens of fields and hundreds of
+                  published papers and can lead to vastly overoptimistic results.
+
+                  We ask authors to justify that their study does not suffer from the main sources of leakage.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-1">
+            <div class="card-header" id="sectionSeven">
+              <h5 class="mb-1 mt-1">
+                <span class="section-title">
+                  Metrics and uncertainty quantification
+                </span>
+                <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
+                  data-target="#collapseSeven" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
+              </h5>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="sectionSeven" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  The performance of ML models is key to the scientific claims of interest.
+                </p>
+                <p>
+                  Since there are many possible choices authors can make when choosing metrics, it is important to
+                  reason why the metrics used are appropriate for the task at hand.
+
+                  Communicating and reasoning about uncertainty is critical.
+                </p>
+                <p>
+
+                  Still, <a href="http://arxiv.org/abs/2206.12179">Simmonds et al.</a> find that studies often do
+                  not report the various kinds of uncertainty in the modeling process.
+
+                  We ask authors to report the metrics and uncertainty estimates used in enough detail to enable a
+                  judgment about whether they made valid choices for evaluating the performance of the model and
+                  drawing scientific inferences.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-1">
+            <div class="card-header" id="sectionEight">
+              <h5 class="mb-1 mt-1">
+                <span class="section-title">
+                  Generalizability
+                </span>
+                <a class="btn float-right collapsed" title="Click to expand/collapse" data-toggle="collapse"
+                  data-target="#collapseEight" aria-expanded="false"><i class="fa float-right fa-plus"></i></a>
+              </h5>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="sectionEight" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  ML-based science faces a number of threats to external validity.
+
+                  Since studies that use ML methods are often unaccompanied by external (i.e., true out-of-sample)
+                  validation, it is important to reason about these threats.
+                </p>
+                <p>
+                  Additionally, authors are best positioned to identify the boundaries of applicability of their
+                  claims in order to prevent misunderstandings about the claims made in their study.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="navitems" id="usage"> How authors, referees & journals can use the reporting standards </h4>
+          <p>
+            <b>Authors</b> can self-regulate by using the reporting standards to identify errors and preemptively
+            address
+            concerns about the use of ML methods in their paper.
+
+            This can also help increase the credibility of their paper, especially in fields that are newly adopting
+            ML
+            methods.
+
+            We expect the reporting standards to be useful to authors throughout the study - during conceptualization,
+            implementation, and communication of the results.
+          </p>
+          <p>
+            The checklist can be included as part of the supplementary materials released alongside a paper, such as
+            the
+            code and data.
+          </p>
+          <p>
+            The guidelines can help authors learn how to correctly apply our reporting standards in their own work and
+            introduce them to underlying theories of evidence.
+          </p>
+
+          <p>
+            <b>Referees</b> can use the reporting standards to determine whether a study they are reviewing falls
+            short.
+          </p>
+          <p>
+            If they have concerns about a study, they can ask researchers to include the filled out checklist in a
+            revised
+            version.
+
+            For example, Roberts et al. use the CLAIM checklist to filter papers for a systematic review based on
+            compliance with the checklist.
+          </p>
+          <p>
+            <b>Journals</b> can require authors to submit a checklist along with their papers to set reporting
+            standards
+            for ML-based science.
+
+            Similar checklists are in place in a number of journals; however, they are usually used for specific
+            disciplines rather than for methods that are prevalent across disciplines.
+
+            Since ML-based science is proliferating across disciplines, our reporting standards offer a
+            method-specific
+            (rather than discipline-specific) intervention.
+          </p>
+
+          <h4 class="navitems" id="citation"> Citation </h4>
+          To cite this work, please use this <a
+            href="./Reporting-Standards-ML-based-Science_files/23-03-28_reproducibility-checklist.bib">BibTeX
+            entry</a>.
+
+          <h4 class="navitems" id="about"> About us </h4>
+
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Affiliation</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="https://www.cs.princeton.edu/~sayashk/">Sayash Kapoor</a></td>
+                  <td>Princeton University</td>
+                  <td>sayashk@princeton.edu</td>
+                </tr>
+                <tr>
+                <tr>
+                  <td>Thanh Hien (Hien) Pham</td>
+                  <td>Princeton University</td>
+                  <td>th.pham@princeton.edu</td>
+                </tr>
+                <tr>
+                  <td>Christopher A. Bail</td>
+                  <td>Duke University</td>
+                  <td>christopher.bail@duke.edu</td>
+                </tr>
+                <tr>
+                  <td>Emily Cantrell</td>
+                  <td>Princeton University</td>
+                  <td>e.cantrell@princeton.edu</td>
+                </tr>
+                <tr>
+                  <td>Odd Erik Gundersen</td>
+                  <td>Norwegian University of Science and Technology</td>
+                  <td>odderik@ntnu.no</td>
+                </tr>
+                <tr>
+                  <td>Jake M. Hofman</td>
+                  <td>Microsoft Research</td>
+                  <td>jhofman@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Jessica Hullman</td>
+                  <td>Northwestern University</td>
+                  <td>jessica.hullman@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Michael Lones</td>
+                  <td>Heriot-Watt University</td>
+                  <td>M.Lones@hw.ac.uk</td>
+                </tr>
+                <tr>
+                  <td>Momin M. Malik</td>
+                  <td>Mayo Clinic’s Center for Digital Health</td>
+                  <td>momin.malik@gmail.com</td>
+                <tr>
+                  <td>Priyanka Nanayakkara</td>
+                  <td>Northwestern University</td>
+                  <td>priyankan@u.northwestern.edu</td>
+                <tr>
+                  <td>Kenny Peng</td>
+                  <td>Cornell University</td>
+                  <td>klp98@cornell.edu</td>
+                <tr>
+                  <td>Russell A. Poldrack</td>
+                  <td>Stanford University</td>
+                  <td>poldrack@stanford.edu</td>
+                <tr>
+                  <td>Inioluwa Deborah Raji</td>
+                  <td>UC Berkeley</td>
+                  <td>rajiinio@berkeley.edu</td>
+                <tr>
+                  <td>Michael Roberts</td>
+                  <td>University of Cambridge</td>
+                  <td>mr808@cam.ac.uk</td>
+                <tr>
+                  <td>Matthew J. Salganik</td>
+                  <td>Princeton University</td>
+                  <td>mjs3@princeton.edu</td>
+                <tr>
+                  <td>Marta Serra-Garcia</td>
+                  <td>UC San Diego</td>
+                  <td>mserragarcia@ucsd.edu</td>
+                <tr>
+                  <td>Brandon M. Stewart</td>
+                  <td>Princeton University</td>
+                  <td>bms4@princeton.edu</td>
+                <tr>
+                  <td>Gilles Vandewiele </td>
+                  <td>Ghent University</td>
+                  <td>gilles.vandewiele@ugent.be</td>
+                <tr>
+                  <td><a href="https://www.cs.princeton.edu/~arvindn/">Arvind Narayanan</a></td>
+                  <td>Princeton University</td>
+                  <td>arvindn@cs.princeton.edu</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br><br>
+
         </div>
-
-        <h4 class="navitems" id="usage"> How authors, referees & journals can use the reporting standards </h4>
-        <p>
-          <b>Authors</b> can self-regulate by using the reporting standards to identify errors and preemptively address
-          concerns about the use of ML methods in their paper.
-
-          This can also help increase the credibility of their paper, especially in fields that are newly adopting ML
-          methods.
-
-          We expect the reporting standards to be useful to authors throughout the study - during conceptualization,
-          implementation, and communication of the results.
-        </p>
-        <p>
-          The checklist can be included as part of the supplementary materials released alongside a paper, such as the
-          code and data.
-        </p>
-        <p>
-          The guidelines can help authors learn how to correctly apply our reporting standards in their own work and
-          introduce them to underlying theories of evidence.
-        </p>
-
-        <p>
-          <b>Referees</b> can use the reporting standards to determine whether a study they are reviewing falls short.
-        </p>
-        <p>
-          If they have concerns about a study, they can ask researchers to include the filled out checklist in a revised
-          version.
-
-          For example, Roberts et al. use the CLAIM checklist to filter papers for a systematic review based on
-          compliance with the checklist.
-        </p>
-        <p>
-          <b>Journals</b> can require authors to submit a checklist along with their papers to set reporting standards
-          for ML-based science.
-
-          Similar checklists are in place in a number of journals; however, they are usually used for specific
-          disciplines rather than for methods that are prevalent across disciplines.
-
-          Since ML-based science is proliferating across disciplines, our reporting standards offer a method-specific
-          (rather than discipline-specific) intervention.
-        </p>
-
-        <h4 class="navitems" id="citation"> Citation </h4>
-        To cite this work, please use this <a
-          href="./Reporting-Standards-ML-based-Science_files/23-03-28_reproducibility-checklist.bib">BibTeX entry</a>.
-
-        <h4 class="navitems" id="about"> About us </h4>
-
-        <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Affiliation</th>
-                <th>Email</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><a href="https://www.cs.princeton.edu/~sayashk/">Sayash Kapoor</a></td>
-                <td>Princeton University</td>
-                <td>sayashk@princeton.edu</td>
-              </tr>
-              <tr>
-              <tr>
-                <td>Thanh Hien (Hien) Pham</td>
-                <td>Princeton University</td>
-                <td>th.pham@princeton.edu</td>
-              </tr>
-              <tr>
-                <td>Christopher A. Bail</td>
-                <td>Duke University</td>
-                <td>christopher.bail@duke.edu</td>
-              </tr>
-              <tr>
-                <td>Emily Cantrell</td>
-                <td>Princeton University</td>
-                <td>e.cantrell@princeton.edu</td>
-              </tr>
-              <tr>
-                <td>Odd Erik Gundersen</td>
-                <td>Norwegian University of Science and Technology</td>
-                <td>odderik@ntnu.no</td>
-              </tr>
-              <tr>
-                <td>Jake M. Hofman</td>
-                <td>Microsoft Research</td>
-                <td>jhofman@gmail.com</td>
-              </tr>
-              <tr>
-                <td>Jessica Hullman</td>
-                <td>Northwestern University</td>
-                <td>jessica.hullman@gmail.com</td>
-              </tr>
-              <tr>
-                <td>Michael Lones</td>
-                <td>Heriot-Watt University</td>
-                <td>M.Lones@hw.ac.uk</td>
-              </tr>
-              <tr>
-                <td>Momin M. Malik</td>
-                <td>Mayo Clinic’s Center for Digital Health</td>
-                <td>momin.malik@gmail.com</td>
-              <tr>
-                <td>Priyanka Nanayakkara</td>
-                <td>Northwestern University</td>
-                <td>priyankan@u.northwestern.edu</td>
-              <tr>
-                <td>Kenny Peng</td>
-                <td>Cornell University</td>
-                <td>klp98@cornell.edu</td>
-              <tr>
-                <td>Russell A. Poldrack</td>
-                <td>Stanford University</td>
-                <td>poldrack@stanford.edu</td>
-              <tr>
-                <td>Inioluwa Deborah Raji</td>
-                <td>UC Berkeley</td>
-                <td>rajiinio@berkeley.edu</td>
-              <tr>
-                <td>Michael Roberts</td>
-                <td>University of Cambridge</td>
-                <td>mr808@cam.ac.uk</td>
-              <tr>
-                <td>Matthew J. Salganik</td>
-                <td>Princeton University</td>
-                <td>mjs3@princeton.edu</td>
-              <tr>
-                <td>Marta Serra-Garcia</td>
-                <td>UC San Diego</td>
-                <td>mserragarcia@ucsd.edu</td>
-              <tr>
-                <td>Brandon M. Stewart</td>
-                <td>Princeton University</td>
-                <td>bms4@princeton.edu</td>
-              <tr>
-                <td>Gilles Vandewiele </td>
-                <td>Ghent University</td>
-                <td>gilles.vandewiele@ugent.be</td>
-              <tr>
-                <td><a href="https://www.cs.princeton.edu/~arvindn/">Arvind Narayanan</a></td>
-                <td>Princeton University</td>
-                <td>arvindn@cs.princeton.edu</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <br><br>
-
       </div>
     </div>
-  </div>
-  <script>
-    // Source: https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=accordion-with-plus-minus-icon
-    $(document).ready(function () {
-      // Add minus icon for collapse element which is open by default
-      $(".collapse.show").each(function () {
-        $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+    <script>
+      // Source: https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=accordion-with-plus-minus-icon
+      $(document).ready(function () {
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.show").each(function () {
+          $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+        });
+
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function () {
+          $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+        }).on('hide.bs.collapse', function () {
+          $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+        });
       });
 
-      // Toggle plus minus icon on show hide of collapse element
-      $(".collapse").on('show.bs.collapse', function () {
-        $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-      }).on('hide.bs.collapse', function () {
-        $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+      $('.navbar-nav>li>a').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
       });
-    });
 
-    $('.navbar-nav>li>a').on('click', function () {
-      $('.navbar-collapse').collapse('hide');
-    });
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('#scroll').show();
+        } else {
+          $('#scroll').hide();
+        }
+      });
 
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
-        $('#scroll').show();
-      } else {
-        $('#scroll').hide();
+      $('#scroll').click(function () {
+        $("html").scrollTop(0);
+        return false;
+      });
+
+
+      // Modified from https://stackoverflow.com/a/49331692
+      var divId;
+      $('.anchor').click(function () {
+        divId = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(divId).offset().top - 65
+        }, 100);
+      });
+      // When the user clicks on div, open the popup
+      function popFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
       }
-    });
 
-    $('#scroll').click(function () {
-      $("html").scrollTop(0);
-      return false;
-    });
+      function popFunction_compas_0() {
+        var popup = document.getElementById("myPopup_compas_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_compas_1() {
+        var popup = document.getElementById("myPopup_compas_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_compas_2() {
+        var popup = document.getElementById("myPopup_compas_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_compas_3() {
+        var popup = document.getElementById("myPopup_compas_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_compas_4() {
+        var popup = document.getElementById("myPopup_compas_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_compas_5() {
+        var popup = document.getElementById("myPopup_compas_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_compas_6() {
+        var popup = document.getElementById("myPopup_compas_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_compas_7() {
+        var popup = document.getElementById("myPopup_compas_7");
+        popup.classList.toggle("show");
+      }
 
+      function popFunction_asft_0() {
+        var popup = document.getElementById("myPopup_asft_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_asft_1() {
+        var popup = document.getElementById("myPopup_asft_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_asft_2() {
+        var popup = document.getElementById("myPopup_asft_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_asft_3() {
+        var popup = document.getElementById("myPopup_asft_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_asft_4() {
+        var popup = document.getElementById("myPopup_asft_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_asft_5() {
+        var popup = document.getElementById("myPopup_asft_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_asft_6() {
+        var popup = document.getElementById("myPopup_asft_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_asft_7() {
+        var popup = document.getElementById("myPopup_asft_7");
+        popup.classList.toggle("show");
+      }
 
-    // Modified from https://stackoverflow.com/a/49331692
-    var divId;
-    $('.anchor').click(function () {
-      divId = $(this).attr('href');
-      $('html, body').animate({
-        scrollTop: $(divId).offset().top - 65
-      }, 100);
-    });
-    // When the user clicks on div, open the popup
-    function popFunction() {
-      var popup = document.getElementById("myPopup");
-      popup.classList.toggle("show");
-    }
+      function popFunction_hire_0() {
+        var popup = document.getElementById("myPopup_hire_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_hire_1() {
+        var popup = document.getElementById("myPopup_hire_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_hire_2() {
+        var popup = document.getElementById("myPopup_hire_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_hire_3() {
+        var popup = document.getElementById("myPopup_hire_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_hire_4() {
+        var popup = document.getElementById("myPopup_hire_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_hire_5() {
+        var popup = document.getElementById("myPopup_hire_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_hire_6() {
+        var popup = document.getElementById("myPopup_hire_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_hire_7() {
+        var popup = document.getElementById("myPopup_hire_7");
+        popup.classList.toggle("show");
+      }
 
-    function popFunction_compas_0() {
-      var popup = document.getElementById("myPopup_compas_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_compas_1() {
-      var popup = document.getElementById("myPopup_compas_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_compas_2() {
-      var popup = document.getElementById("myPopup_compas_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_compas_3() {
-      var popup = document.getElementById("myPopup_compas_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_compas_4() {
-      var popup = document.getElementById("myPopup_compas_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_compas_5() {
-      var popup = document.getElementById("myPopup_compas_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_compas_6() {
-      var popup = document.getElementById("myPopup_compas_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_compas_7() {
-      var popup = document.getElementById("myPopup_compas_7");
-      popup.classList.toggle("show");
-    }
+      function popFunction_drop_0() {
+        var popup = document.getElementById("myPopup_drop_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_drop_1() {
+        var popup = document.getElementById("myPopup_drop_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_drop_2() {
+        var popup = document.getElementById("myPopup_drop_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_drop_3() {
+        var popup = document.getElementById("myPopup_drop_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_drop_4() {
+        var popup = document.getElementById("myPopup_drop_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_drop_5() {
+        var popup = document.getElementById("myPopup_drop_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_drop_6() {
+        var popup = document.getElementById("myPopup_drop_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_drop_7() {
+        var popup = document.getElementById("myPopup_drop_7");
+        popup.classList.toggle("show");
+      }
 
-    function popFunction_asft_0() {
-      var popup = document.getElementById("myPopup_asft_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_asft_1() {
-      var popup = document.getElementById("myPopup_asft_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_asft_2() {
-      var popup = document.getElementById("myPopup_asft_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_asft_3() {
-      var popup = document.getElementById("myPopup_asft_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_asft_4() {
-      var popup = document.getElementById("myPopup_asft_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_asft_5() {
-      var popup = document.getElementById("myPopup_asft_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_asft_6() {
-      var popup = document.getElementById("myPopup_asft_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_asft_7() {
-      var popup = document.getElementById("myPopup_asft_7");
-      popup.classList.toggle("show");
-    }
+      function popFunction_credit_0() {
+        var popup = document.getElementById("myPopup_credit_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_credit_1() {
+        var popup = document.getElementById("myPopup_credit_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_credit_2() {
+        var popup = document.getElementById("myPopup_credit_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_credit_3() {
+        var popup = document.getElementById("myPopup_credit_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_credit_4() {
+        var popup = document.getElementById("myPopup_credit_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_credit_5() {
+        var popup = document.getElementById("myPopup_credit_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_credit_6() {
+        var popup = document.getElementById("myPopup_credit_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_credit_7() {
+        var popup = document.getElementById("myPopup_credit_7");
+        popup.classList.toggle("show");
+      }
 
-    function popFunction_hire_0() {
-      var popup = document.getElementById("myPopup_hire_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_hire_1() {
-      var popup = document.getElementById("myPopup_hire_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_hire_2() {
-      var popup = document.getElementById("myPopup_hire_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_hire_3() {
-      var popup = document.getElementById("myPopup_hire_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_hire_4() {
-      var popup = document.getElementById("myPopup_hire_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_hire_5() {
-      var popup = document.getElementById("myPopup_hire_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_hire_6() {
-      var popup = document.getElementById("myPopup_hire_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_hire_7() {
-      var popup = document.getElementById("myPopup_hire_7");
-      popup.classList.toggle("show");
-    }
+      function popFunction_fb_0() {
+        var popup = document.getElementById("myPopup_fb_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_fb_1() {
+        var popup = document.getElementById("myPopup_fb_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_fb_2() {
+        var popup = document.getElementById("myPopup_fb_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_fb_3() {
+        var popup = document.getElementById("myPopup_fb_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_fb_4() {
+        var popup = document.getElementById("myPopup_fb_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_fb_5() {
+        var popup = document.getElementById("myPopup_fb_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_fb_6() {
+        var popup = document.getElementById("myPopup_fb_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_fb_7() {
+        var popup = document.getElementById("myPopup_fb_7");
+        popup.classList.toggle("show");
+      }
 
-    function popFunction_drop_0() {
-      var popup = document.getElementById("myPopup_drop_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_drop_1() {
-      var popup = document.getElementById("myPopup_drop_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_drop_2() {
-      var popup = document.getElementById("myPopup_drop_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_drop_3() {
-      var popup = document.getElementById("myPopup_drop_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_drop_4() {
-      var popup = document.getElementById("myPopup_drop_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_drop_5() {
-      var popup = document.getElementById("myPopup_drop_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_drop_6() {
-      var popup = document.getElementById("myPopup_drop_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_drop_7() {
-      var popup = document.getElementById("myPopup_drop_7");
-      popup.classList.toggle("show");
-    }
+      function popFunction_med_0() {
+        var popup = document.getElementById("myPopup_med_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_med_1() {
+        var popup = document.getElementById("myPopup_med_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_med_2() {
+        var popup = document.getElementById("myPopup_med_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_med_3() {
+        var popup = document.getElementById("myPopup_med_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_med_4() {
+        var popup = document.getElementById("myPopup_med_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_med_5() {
+        var popup = document.getElementById("myPopup_med_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_med_6() {
+        var popup = document.getElementById("myPopup_med_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_med_7() {
+        var popup = document.getElementById("myPopup_med_7");
+        popup.classList.toggle("show");
+      }
 
-    function popFunction_credit_0() {
-      var popup = document.getElementById("myPopup_credit_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_credit_1() {
-      var popup = document.getElementById("myPopup_credit_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_credit_2() {
-      var popup = document.getElementById("myPopup_credit_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_credit_3() {
-      var popup = document.getElementById("myPopup_credit_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_credit_4() {
-      var popup = document.getElementById("myPopup_credit_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_credit_5() {
-      var popup = document.getElementById("myPopup_credit_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_credit_6() {
-      var popup = document.getElementById("myPopup_credit_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_credit_7() {
-      var popup = document.getElementById("myPopup_credit_7");
-      popup.classList.toggle("show");
-    }
-
-    function popFunction_fb_0() {
-      var popup = document.getElementById("myPopup_fb_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_fb_1() {
-      var popup = document.getElementById("myPopup_fb_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_fb_2() {
-      var popup = document.getElementById("myPopup_fb_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_fb_3() {
-      var popup = document.getElementById("myPopup_fb_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_fb_4() {
-      var popup = document.getElementById("myPopup_fb_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_fb_5() {
-      var popup = document.getElementById("myPopup_fb_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_fb_6() {
-      var popup = document.getElementById("myPopup_fb_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_fb_7() {
-      var popup = document.getElementById("myPopup_fb_7");
-      popup.classList.toggle("show");
-    }
-
-    function popFunction_med_0() {
-      var popup = document.getElementById("myPopup_med_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_med_1() {
-      var popup = document.getElementById("myPopup_med_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_med_2() {
-      var popup = document.getElementById("myPopup_med_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_med_3() {
-      var popup = document.getElementById("myPopup_med_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_med_4() {
-      var popup = document.getElementById("myPopup_med_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_med_5() {
-      var popup = document.getElementById("myPopup_med_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_med_6() {
-      var popup = document.getElementById("myPopup_med_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_med_7() {
-      var popup = document.getElementById("myPopup_med_7");
-      popup.classList.toggle("show");
-    }
-
-    function popFunction_life_0() {
-      var popup = document.getElementById("myPopup_life_0");
-      popup.classList.toggle("show");
-    }
-    function popFunction_life_1() {
-      var popup = document.getElementById("myPopup_life_1");
-      popup.classList.toggle("show");
-    }
-    function popFunction_life_2() {
-      var popup = document.getElementById("myPopup_life_2");
-      popup.classList.toggle("show");
-    }
-    function popFunction_life_3() {
-      var popup = document.getElementById("myPopup_life_3");
-      popup.classList.toggle("show");
-    }
-    function popFunction_life_4() {
-      var popup = document.getElementById("myPopup_life_4");
-      popup.classList.toggle("show");
-    }
-    function popFunction_life_5() {
-      var popup = document.getElementById("myPopup_life_5");
-      popup.classList.toggle("show");
-    }
-    function popFunction_life_6() {
-      var popup = document.getElementById("myPopup_life_6");
-      popup.classList.toggle("show");
-    }
-    function popFunction_life_7() {
-      var popup = document.getElementById("myPopup_life_7");
-      popup.classList.toggle("show");
-    }
-  </script>
+      function popFunction_life_0() {
+        var popup = document.getElementById("myPopup_life_0");
+        popup.classList.toggle("show");
+      }
+      function popFunction_life_1() {
+        var popup = document.getElementById("myPopup_life_1");
+        popup.classList.toggle("show");
+      }
+      function popFunction_life_2() {
+        var popup = document.getElementById("myPopup_life_2");
+        popup.classList.toggle("show");
+      }
+      function popFunction_life_3() {
+        var popup = document.getElementById("myPopup_life_3");
+        popup.classList.toggle("show");
+      }
+      function popFunction_life_4() {
+        var popup = document.getElementById("myPopup_life_4");
+        popup.classList.toggle("show");
+      }
+      function popFunction_life_5() {
+        var popup = document.getElementById("myPopup_life_5");
+        popup.classList.toggle("show");
+      }
+      function popFunction_life_6() {
+        var popup = document.getElementById("myPopup_life_6");
+        popup.classList.toggle("show");
+      }
+      function popFunction_life_7() {
+        var popup = document.getElementById("myPopup_life_7");
+        popup.classList.toggle("show");
+      }
+    </script>
 
 </body>
 
